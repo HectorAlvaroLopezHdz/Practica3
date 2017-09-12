@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Datos.Page2"
+             Title="Pagina 2">
+
+    <StackLayout>
+        <Label Text="Pagina 2"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               />
+        <Label x:Name="txtusername" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               />
+        <Label x:Name="txtape" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               />
+        <Label x:Name="txtdireccion" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               />
+        <Button x:Name="btnpagina1"
+                Text="Volver"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                ></Button>
+    </StackLayout>
+</ContentPage>

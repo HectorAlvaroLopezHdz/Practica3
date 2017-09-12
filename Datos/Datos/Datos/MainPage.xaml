@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Datos"
+             x:Class="Datos.MainPage">
+    <ScrollView>    <StackLayout>
+        <Label Text="Datos Personales">
+        </Label>
+            <Label Text="Nombre"
+                   HorizontalOptions="Center">
+            </Label>
+ 
+            <Entry x:Name="txtusername"
+           Placeholder="Ingresa tu nombre"
+           ></Entry>
+
+            <Label Text="Apellidos"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtape"
+           Placeholder="Ingresa tus apellidos"
+           ></Entry>
+
+                <Label Text="Direccion"
+                   HorizontalOptions="Center"/>
+
+                <Entry x:Name="txtdireccion"
+           Placeholder="Direccion: Calle, Numero Ext."
+           ></Entry>
+
+                    <Button x:Name="btnpagina2"
+            Text="Ir a pagina 2"/>
+        
+    </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>
