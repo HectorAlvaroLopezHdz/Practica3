@@ -20,23 +20,13 @@ namespace Datos
             Prueba.Items.Add("Ingeniería Civil");
             Prueba.Items.Add("Licenciatura en Gastronomia");
             Prueba.Items.Add("Ingeniería Mecatrónica");
-            Prueba.Items.Add("Licenciatura en Biología");
-
-
-
-
-
-
-            
+            Prueba.Items.Add("Licenciatura en Biología");           
         }
 
         private void Btnpagina2_Clicked(object sender, EventArgs e)
         {
             var nombre = Prueba.Items[Prueba.SelectedIndex];
             Navigation.PushModalAsync(new Page2(txtusername.Text,txtape.Text,txtdirec.Text,txtphone.Text,nombre,txtsemestre.Text,txtmatricula.Text,txtusuario.Text,txtcorreo.Text,txtgithub.Text));
-
-
-            
         }
 
    

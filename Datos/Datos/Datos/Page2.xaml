@@ -4,7 +4,7 @@
              x:Class="Datos.Page2"
              Title="Pagina 2">
     <ScrollView>
-    <StackLayout>
+        <StackLayout>
         <Label Text="Datos"
                VerticalOptions="Center"
                HorizontalOptions="Center"
@@ -106,6 +106,6 @@
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 ></Button>
-    </StackLayout>
+        </StackLayout>
     </ScrollView>
 </ContentPage>
