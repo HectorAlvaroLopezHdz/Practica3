@@ -4,7 +4,8 @@
              xmlns:local="clr-namespace:Datos"
              x:Class="Datos.MainPage">
     <ScrollView>    <StackLayout>
-        <Label Text="Datos Personales">
+        <Label Text="Datos Personales"
+               Font="Bold">
         </Label>
             <Label Text="Nombre"
                    HorizontalOptions="Center">
@@ -24,12 +25,68 @@
                 <Label Text="Direccion"
                    HorizontalOptions="Center"/>
 
-                <Entry x:Name="txtdireccion"
+                <Entry x:Name="txtdirec"
            Placeholder="Direccion: Calle, Numero Ext."
            ></Entry>
 
-                    <Button x:Name="btnpagina2"
-            Text="Ir a pagina 2"/>
+            <Label Text="Telefono"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtphone"
+           Placeholder="Telefono fijo o celular"
+           ></Entry>
+
+            <Label Text="Datos escolares"
+                  Font="Bold"/>
+
+            <Label Text="Carrera"
+                   HorizontalOptions="Center"/>
+
+            <Picker x:Name="Prueba" Title="Seleccione carrera"
+                    >
+            </Picker>
+
+            <Label Text="Semestre"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtsemestre"
+           Placeholder="Ejemplo: 9"
+           ></Entry>
+        
+            <Label Text="Matricula"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtmatricula"
+           Placeholder="Ejemplo: 13090305"
+           ></Entry>
+            <Label Text="Datos Sociales"
+                   Font="Bold"/>
+
+            <Label Text="Usuario"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtusuario"
+           Placeholder="Ejemplo : user123"
+           ></Entry>
+
+            <Label Text="Correo"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtcorreo"
+           Placeholder="Ejemplo@tesh.com"
+           ></Entry>
+
+            <Label Text="Github"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="txtgithub"
+           Placeholder="https://github.com/HectorAlvaroLopezHdz"
+           ></Entry>
+
+           
+
+            <Button x:Name="btnpagina2"
+            Text="Enviar datos"/>
         
     </StackLayout>
     </ScrollView>

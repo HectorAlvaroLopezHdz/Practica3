@@ -3,23 +3,103 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Datos.Page2"
              Title="Pagina 2">
-
+    <ScrollView>
     <StackLayout>
-        <Label Text="Pagina 2"
+        <Label Text="Datos"
                VerticalOptions="Center"
                HorizontalOptions="Center"
+               Font="Bold,20"
                />
+        <Label 
+            Text="Nombre"
+            />
         <Label x:Name="txtusername" Text="Bienvenido"
                VerticalOptions="Center"
                HorizontalOptions="Center"
+               Font="Bold,20"
                />
+        <Label 
+            Text="Apellidos"
+            />
         <Label x:Name="txtape" Text="Bienvenido"
                VerticalOptions="Center"
                HorizontalOptions="Center"
+               Font="Bold,20"
                />
-        <Label x:Name="txtdireccion" Text="Bienvenido"
+        <Label 
+            Text="Direccion"
+            />
+        <Label x:Name="txtdirec" Text="Bienvenido"
                VerticalOptions="Center"
                HorizontalOptions="Center"
+               Font="Bold,20"
+               />  
+        <Label 
+            Text="Telefono"
+            />
+        
+        <Label x:Name="txtphone" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               />
+
+
+        <Label 
+            Text="Carrera"
+            />
+
+        <Label x:Name="txtcarrera" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,15"
+               />
+        <Label 
+            Text="Semestre"
+            />
+
+        <Label x:Name="txtsemestre" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               />
+        <Label 
+            Text="Matricula"
+            />
+
+        <Label x:Name="txtmatricula" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               />
+
+     
+        <Label 
+            Text="Usuario"
+            />
+
+        <Label x:Name="txtusuario" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               />
+        <Label 
+            Text="Correo"
+            />
+
+        <Label x:Name="txtcorreo" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               />
+        <Label 
+            Text="Github"
+            />
+
+        <Label x:Name="txtgithub" Text="Bienvenido"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Font="Bold,20"
                />
         <Button x:Name="btnpagina1"
                 Text="Volver"
@@ -27,4 +107,5 @@
                 HorizontalOptions="Center"
                 ></Button>
     </StackLayout>
+    </ScrollView>
 </ContentPage>
