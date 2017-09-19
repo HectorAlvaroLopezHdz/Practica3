@@ -108,6 +108,8 @@
     <None Include="Datos.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Assets\FARO.jpg" />
+    <AndroidResource Include="FARO.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />

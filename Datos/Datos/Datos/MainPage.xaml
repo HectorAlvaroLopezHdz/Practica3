@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Datos"
-             x:Class="Datos.MainPage">
+             x:Class="Datos.MainPage"
+             >
     <ScrollView >    <StackLayout >
         <Label Text="Datos Personales"
                Font="Bold">
@@ -12,6 +13,7 @@
             </Label>
  
             <Entry x:Name="txtusername"
+                
            Placeholder="Ingresa tu nombre"
            ></Entry>
 
@@ -33,6 +35,7 @@
                    HorizontalOptions="Center"/>
 
             <Entry x:Name="txtphone"
+                   Keyboard="Numeric"
            Placeholder="Telefono fijo o celular"
            ></Entry>
 

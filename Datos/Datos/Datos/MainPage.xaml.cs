@@ -20,7 +20,8 @@ namespace Datos
             Prueba.Items.Add("Ingeniería Civil");
             Prueba.Items.Add("Licenciatura en Gastronomia");
             Prueba.Items.Add("Ingeniería Mecatrónica");
-            Prueba.Items.Add("Licenciatura en Biología");           
+            Prueba.Items.Add("Licenciatura en Biología");
+           
         }
 
         private void Btnpagina2_Clicked(object sender, EventArgs e)
